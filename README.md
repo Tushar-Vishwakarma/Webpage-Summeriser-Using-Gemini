@@ -31,15 +31,14 @@ Option 2: Using the Floating Button
 - An alert with the summary will appear.
 
 **Project Structure**
-web-page-summarizer/
-├── manifest.json      # Chrome extension metadata and permissions
-├── background.js      # Handles background tasks like API requests
-├── content.js         # Extracts main webpage content
-├── popup.html         # HTML structure for the popup interface
-├── popup.js           # JavaScript for popup interactions
-├── styles.css         # Styles for the popup and floating button
-├── utils.js           # Utility functions for content extraction
-└── images/            # Icon images for the extension
+- manifest.json (Chrome extension metadata and permissions)
+- background.js (Handles background tasks like API requests)
+- content.js (Extracts main webpage content)
+- popup.html (HTML structure for the popup interface)
+-popup.js (JavaScript for popup interactions)
+- styles.css (Styles for the popup and floating button)
+- utils.js (Utility functions for content extraction)
+- images (Icon images for the extension)
 
 
 **Configuration**
